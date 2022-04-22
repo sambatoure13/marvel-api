@@ -23,7 +23,7 @@
     <div class="wrapper">
         <?php foreach($characters as $character): ?>
         <div class='card'>
-            <h2><?= $character->name?> #<?= $character->id?></h2>
+            <h2><?= $character->name?> <?= $character->id?></h2>
             <div class="image">
                 <a href="./hero.php?id=<?= $character->id?>">
                     <img class="heroImage" src="<?= $character->thumbnail->path?>.<?=$character->thumbnail->extension?>"

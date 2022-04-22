@@ -22,9 +22,9 @@
 <body>
     <?php foreach($heroes as $hero): ?>
     <div>
-        <h2><?= $hero->name?><?= $hero->id?></h2>
+        <h2><?= $hero->name?></h2>
         <img src="<?= $hero->thumbnail->path?>.<?=$hero->thumbnail->extension?>" width="200">
-        <p><?= $hero->description?>
+        <p><?= $hero->description?></p>
         <p class='comics'>he belongs in the following comics:</p>
         <?php foreach($hero->comics->items as $comic): ?>
         <div><?= $comic->name?></div>
