@@ -37,7 +37,7 @@
 
             $result =curl_exec($curl);
 
-            file_put_contents($filePath, $result);
+            // file_put_contents($filePath, $result);
         }
         $jsonResult = json_decode($result);
 

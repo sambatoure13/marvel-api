@@ -7,9 +7,6 @@
     $jsonResult = apiCall($url);
 
     $heroes = $jsonResult->data->results;
-    // echo '<pre>';
-    // print_r($heroes);
-    // echo '</pre>';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -18,6 +15,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Marvel Hero</title>
 </head>
 
